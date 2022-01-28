@@ -1,0 +1,45 @@
+.image {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+  border-style: solid ;
+  border-color: white;
+  border-radius: 15px;
+  width:270px;
+  height: 270px;
+}
+
+
+.outer {
+  position: absolute;
+  left: 600px;
+  top: 100px;
+  border-style: solid ;
+  border-color: white;
+  border-radius: 15px;
+  background: white;
+  height: 60%;
+  width: 300px;
+
+}
+
+.Under { 
+  position: absolute;
+  left:8%;
+  top: 65%;
+  text-align: center;
+}
+
+.bold {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 750;
+  font-size: 20px;
+}
+
+.grey {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
